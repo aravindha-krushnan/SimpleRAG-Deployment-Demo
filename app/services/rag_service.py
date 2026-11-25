@@ -224,7 +224,7 @@ class RAGService:
 
         response = client.chat.completions.create(
             model=self.settings.openai_chat_model,
-            temperature=0.2,
+            temperature=1,
             messages=[
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_prompt},
