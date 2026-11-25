@@ -10,7 +10,7 @@ class Settings(BaseSettings):
     pinecone_cloud: str = "aws"
     pinecone_region: str = "us-east-1"
 
-    openai_chat_model: str = "gpt-4o-mini"
+    openai_chat_model: str = "gpt-6-luna"
     openai_embedding_model: str = "text-embedding-3-small"
     embedding_dimension: int = 1536
 
